@@ -1,0 +1,419 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300&family=Paytone+One&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  padding: 25px 40px;
+}
+
+header .nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .nav img {
+  width: 120px;
+  height: 55px;
+}
+
+header .nav .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -5px;
+}
+
+header .nav .login a {
+  width: 52px;
+  height: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #05034E;
+  text-align: center;
+  letter-spacing: 0.04em;
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+header .nav .login button {
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 18px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+header .head {
+  text-align: center;
+  margin-top: 130px;
+}
+
+header .head h1 {
+  margin: auto;
+  font-family: 'paytone one', sans-serif;
+  color: #05034E;
+  font-size: 46px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header .head p {
+  width: 860px;
+  height: 54px;
+  margin: 24px auto;
+  font-family: 'open sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  word-spacing: 2px;
+  color: #202020;
+  text-align: center;
+}
+
+header .head button {
+  margin: 2% auto 3%;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 24px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.about {
+  width: 100%;
+  background: rgba(242, 242, 253, 0.5);
+  text-align: center;
+  padding: 3% 0;
+}
+
+.about h1 {
+  margin-bottom: 3%;
+  font-family: Paytone One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  color: #05034E;
+}
+
+.about p {
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19px;
+  word-spacing: 2px;
+  text-align: center;
+  color: #202020;
+}
+
+.about .content {
+  margin-top: 10%;
+}
+
+.about .content ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style: outside;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about .content ul li {
+  list-style-type: none;
+  width: 50%;
+  margin: 0% 1% 0% 4%; 
+  text-align: left;
+  padding: 2%;
+}
+.about .content ul li .left::before{
+  content: url(/png\ images/icon1.png);
+  float: left;
+  width: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  height: 100%;
+}
+.about .content ul li .left h3{
+  font-family: 'paytone one', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #05034E;
+}
+.about .content ul li .right h3{
+  font-family: 'paytone one', sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  color: #05034E;
+}
+.about .content ul li .left p{
+  text-align: justify;
+  width: 75%;
+  margin-left: 70px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #202020;
+}
+.about .content ul li .right::before{
+  content: url(/png\ images/icon2.png);
+  float: left;
+  width: 50px;
+  padding-right: 20px;
+  padding-top: 5px;
+  height: 100%;
+}
+.about .content ul li .right p{
+  text-align: justify;
+  margin-left: 70px;
+  width: 75%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #202020;
+}
+.linkedin h1{
+  padding: 7% 0% 6%;
+  margin-left: 4%;
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  color: #05034E;
+}
+.linkedin .link .box{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.linkedin .link .box .send{
+  width: 450px;
+}
+.linkedin .link .box .send h4{
+  display: inline;
+  background: #99D0FF;
+  border-radius: 28px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  font-size: 14px;
+  color: #333333;
+  padding: 9px 20px;
+}
+.linkedin .link .box .send h3{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 39px;
+  color: #05034E;
+}
+.linkedin .link .box .send span{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 25px;
+  line-height: 35px;
+  color: #05034E;
+}
+.linkedin .link .box .send p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  text-align: left;
+  color: #202020;
+}
+.linkedin .link .first{
+  margin-left: 8%;
+}
+.linkedin .link .box .requests h3{
+  padding-top: 20px;
+}
+.linkedin .link .box .requests p{
+  margin-top: 10%;
+}
+.linkedin .link .box .mail{
+  margin-right: 5%;
+}
+.linkedin .link .box .mail h4{
+  padding: 9px 25px;
+  background-color: #99FFCE;;
+}
+.linkedin .link .box .mail h3{
+  padding-top: 25px;
+  line-height: 1;
+  font-size: 33px;
+}
+.linkedin .link .box .mail p{
+  margin-top: 10%;
+}
+.linkedin .link .third{
+  margin-left: 8%;
+}
+.linkedin .link .box .reply h4{
+  padding: 9px 25px;
+  background-color:  #D299FF;
+}
+.linkedin .link .box .reply h3{
+  padding-top: 25px;
+  line-height: 1;
+  font-size: 35px;
+}
+.linkedin .link .box .reply p{
+  margin-top: 10%;
+}
+.customer{
+  width: 100%;
+  background-color: #F2F2FD;
+  padding-top: 4%;
+  padding-bottom: 4%;
+}
+.customer h2{
+  padding: 5% auto;
+  text-align: center;
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  color: #05034E;
+}
+.customer .slide_container{
+  width: 80%;
+  margin: 5% auto 5%;
+  position: relative;
+}
+.customer .slide_container .slides{
+  background-color: #FFFFFF;
+  box-shadow: 12px 12px 30px rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  width: 80%;
+  margin: auto;
+}
+.customer .slide_container a{
+  position: absolute;
+  margin-top: -22px;
+  top: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.next{
+  right: 0;
+}
+.customer .slide_container .slides .head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.customer .slide_container .slides .about{
+  width: 75%;
+  margin: auto;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #202020;
+}
+.customer .slide_container .slides .info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 5%;
+}
+.customer .slide_container .slides .info div{
+  margin-left: 30px;
+}
+.customer .slide_container .slides .info div h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #05034E;
+}
+.customer .slide_container .slides .info div p{
+  font-family: 'open sans',sans-serif;
+}
+.footer{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 8%;
+}
+.footer h1{
+  font-family: 'Paytone One', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 29px;
+  color: #05034E;
+}
+.footer p{
+  font-family: 'Open Sans',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #202020;
+}
+.footer button{
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #5856CE;
+  border-radius: 4px;
+  font-family: 'Inter',sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  padding: 12px 18px;
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=style.css.map */
